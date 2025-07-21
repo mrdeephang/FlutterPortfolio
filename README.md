@@ -15,11 +15,10 @@
 
 **Clone the repository**:
    ```bash
-   git clone https://github.com/yourusername/flutter-portfolio.git
+   git clone https://github.com/mrdeephang/FlutterPortfolio.git
    cd flutter-portfolio
    flutter pub get
    flutter run
 
 ```
-
 Copyright © 2025 Deephang Thegim. All rights reserved.
