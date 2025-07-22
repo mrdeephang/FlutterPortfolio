@@ -47,21 +47,16 @@ class _PorfolioState extends State<Portfolio> {
           // Image.asset('assets/images/pfp.jpg'),
           SizedBox(height: 10), // Space between app bar and profile picture
           Center(
-            child: Column(
-              //only one widget can be child of Center
-              children: [
-                CircleAvatar(
-                  radius: 100,
-                  backgroundImage: AssetImage('assets/images/pfp.jpg'),
-                  backgroundColor: Colors.transparent,
-                ),
-                SizedBox(height: 10), // Space between profile picture and name
-                Text(
-                  'Deephang Thegim',
-                  style: TextStyle(fontSize: 24, fontWeight: FontWeight.bold),
-                ),
-              ],
+            child: CircleAvatar(
+              radius: 100,
+              backgroundImage: AssetImage('assets/images/pfp.jpg'),
+              backgroundColor: Colors.transparent,
             ),
+          ),
+          SizedBox(height: 10), // Space between profile picture and name
+          Text(
+            'Deephang Thegim',
+            style: TextStyle(fontSize: 24, fontWeight: FontWeight.bold),
           ),
         ],
       ),
